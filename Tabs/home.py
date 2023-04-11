@@ -15,6 +15,11 @@ def app():
     # Add brief describtion of your web app
     st.markdown(
     """<p style="font-size:20px;">
-            Considering today’s lifestyle, people just sleep forgetting the benefits sleep provides to the human body. Smart-Yoga Pillow (SaYoPillow) is proposed to help in understanding the relationship between stress and sleep and to fully materialize the idea of “Smart-Sleeping” by proposing an edge device. An edge processor with a model analyzing the physiological changes that occur during sleep along with the sleeping habits is proposed. Based on these changes during sleep, stress prediction for the following day is proposed. The secure transfer of the analyzed stress data along with the average physiological changes to the IoT cloud for storage is implemented. A secure transfer of any data from the cloud to any third-party applications is also proposed. A user interface is provided allowing the user to control the data accessibility and visibility. SaYoPillow is novel, with security features as well as consideration of sleeping habits for stress reduction, with an accuracy of up to 96%.
+         Stress level detection is the process of using technology or methods to measure and analyze an individual's stress level. The goal of stress level detection is to provide an accurate assessment of a person's stress level, which can be used to guide interventions and treatments to help manage stress. An edge processor with a model analyzing the physiological changes that occur during sleep along with the sleeping habits is proposed. Based on these changes during sleep, stress prediction for the following day is proposed. A user interface is provided allowing the user to control the data accessibility and visibility. The importance of stress level detection lies in the fact that high levels of stress can have negative effects on physical and mental health, including cardiovascular disease, anxiety, and depression. By detecting stress levels, individuals can take steps to manage stress and improve their overall well-being.
         </p>
     """, unsafe_allow_html=True)
+
+    st.markdown(""" <style>
+     #MainMenu {visibility: hidden;}
+     footer {visibility: hidden;}
+     </style> """, unsafe_allow_html=True)
